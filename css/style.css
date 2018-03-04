@@ -1,0 +1,260 @@
+body{
+  background-color: #f4f3dc;
+}
+
+#jumbo{
+  background-color: #f4f3dc;
+  padding-top:200px;
+}
+
+
+#frame-bottom{
+  box-shadow: 0px 5px 50px 2px #333; 
+  border-radius: 20px ;
+  background-color: #dfd8d0;
+  width: 400px;
+  height: 420px;
+  padding: 0px;
+}
+
+#container-row-flag{
+  width:360px;
+}
+
+#flag-player-1{
+  height: 55px;
+  background-color:#00c8c8;
+  color: #fff;
+  text-align:center;
+  padding:0px;
+  font-size: 19px;
+  visibility: hidden;  
+ }
+
+#flag-blank{ 
+  height: 55px;
+}
+
+#flag-player-2{
+  height: 55px;
+  background-color:#c86464;
+  color: #fff;
+  text-align:center;
+  padding:0px;
+  font-size: 19px;
+  visibility: hidden;  
+}
+
+#frame{
+    box-shadow: inset -2px -2px 20px 1px #333;  
+    border-radius: 20px ;
+    background-color: #f0b487;
+    width: 400px;
+    height: 420px;
+    padding-top:5px;
+}
+
+#header-row{
+  height: 30px;
+  display: flex;
+}
+
+[id|=header-label]{
+  color:#333;  
+  padding-top: 0px;
+  text-align:center;
+  font-size: 10px;
+  //height:10px;
+  //background-color: #f0b487;
+  border: none;
+  border-radius: 25px;
+  width: 70px;
+}
+
+[id|=header-label-reset]:hover {
+  border: 1px dashed #000;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+/* start first container menu */
+
+#menu-first-container{
+  display: table;
+  border-spacing: 5px;
+  background: radial-gradient(#274c3a 1% , #171e1d 99%);
+  width: 350px;
+  height: 350px; 
+}
+
+#menu-first-title{
+  color:#fff;  
+  //border: 3px solid #73AD21;
+  padding-top: 50px;
+  text-align:center;
+  font-size: 30px;
+}
+
+#menu-first-button-container{
+  text-align:center;
+  margin-top:50px;
+}
+
+[id|=menu-first-btn]{
+  font-size: 20px;
+  border-radius:25px;
+  background-color:transparent;
+  color:#fff
+}
+[id|=menu-first-btn]:hover {  border: 1px dashed #fff;}
+
+/* end first container menu*/
+/*-----------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------*/
+/* start second container menu */
+
+#menu-second-container{
+  display: table;
+  border-spacing: 5px;
+  background: radial-gradient(#274c3a 1% , #171e1d 99%);
+  width: 350px;
+  height: 350px;
+}
+
+#menu-second-title{
+  color:#fff;  
+  //border: 3px solid #73AD21;
+  padding-top: 50px;
+  text-align:center;
+  font-size: 30px;
+}
+
+#menu-second-button-container{
+  text-align:center;
+  margin-top:50px;
+}
+
+[id|=menu-second-btn]{
+
+  font-size: 30px;
+  border-radius:25px;
+  background-color:transparent;
+  color:#fff  
+}
+[id|=menu-second-btn]:hover {  border: 1px dashed #fff;}
+
+
+#menu-second-back{
+  color:#fff;  
+  //border: 3px solid #73AD21;
+  width:110px;
+  margin-top: 30px;
+  text-align:center;
+  font-size: 30px;
+  border-radius: 20px;
+  
+}
+
+#menu-second-back:hover {
+  border: 1px dashed #fff;
+}
+
+/* end second container menu*/
+/*-----------------------------------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------------------------------*/
+/* start board container*/
+#board{
+  display: table;
+  border-spacing: 5px;
+  background: radial-gradient(#274c3a 1% , #171e1d 99%);
+  width: 350px;
+  height: 350px;
+}
+
+#button-container{
+  color:#fff;  
+  //border: 3px solid #73AD21;
+  padding-top: 50px;
+  text-align:center;
+  font-size: 30px;  
+}
+
+.row {
+  //display: table-row;
+}
+
+.cell {
+  width: 113px;
+  height: 113px;
+  //display: table-cell;
+  border: 1px solid #fff;
+  border-top : none;
+  border-left: none;
+  color: #fff;  
+}
+
+p{
+    //margin: auto;
+    //width: 100%;
+    //border: 3px solid #73AD21;
+    //padding-top: 37%;
+    text-align:center;
+    font-size: 60px;
+}
+
+[id|=cell]{
+    margin: auto;
+    height: 110px;
+    width:110px;
+    //border: 3px solid #73AD21;
+    //margin-top: -48%;
+    //margin-left: 22%;
+    //margin-top: 0px;
+    text-align:center;
+    vertical-align:middle;
+    font-size: 70px;
+    font-family:"Arial Black", Gadget, sans-serif  
+}
+
+.row div:last-child {
+  border-right: none;
+}
+
+.row:last-of-type > .cell{
+  border-bottom: none;
+}
+
+
+/* start board container*/
+/* ----------------------------------------------------------------------------------------*/
+
+
+/* start end-game container*/
+/* ----------------------------------------------------------------------------------------*/
+
+#end-game-container{
+  display: table;
+  border-spacing: 5px;
+  background: radial-gradient(#274c3a 1% , #171e1d 99%);
+  width: 350px;
+  height: 350px;
+}
+
+#end-game-title{
+  color:#fff;  
+  padding-top: 90px;
+  text-align:center;
+  font-size: 35px;
+}
+
+
+/* end end-game container*/
+/* ----------------------------------------------------------------------------------------*/
+
+#link-pers{
+  font-size:20px;
+}

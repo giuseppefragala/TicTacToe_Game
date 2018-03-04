@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp: A Tic Tac Toe Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="jumbotron center-block" id="jumbo">
+  <p class="text-center" style="color:#c34141; font-size:80px"><b>Tic Tac Toe</b></p>
+  <div class="container" id="container-row-flag">
+<div class="row" id="row-flag">
+        
+        <div class="col-5">
+          <div class="row">
+            <div class="col-12" id="flag-player-1" status="visible"></div>
+          </div>
+        </div>        
+    
+        <div class="col-2">
+          <div class="row">
+            <div class="col-12" id="flag-blank"></div>
+          </div>
+        </div>       
+
+        <div class="col-5">
+          <div class="row">            
+            <div class="col-12" id="flag-player-2" status="visible"></div>
+          </div>
+        </div>        
+        
+      </div>
+  </div>
+  
+  <div class="container" id="frame-bottom">
+    <div class="container" id="frame">
+      <div class="container" id="container-header-row">
+        <div class"row" id="header-row">
+          
+          <div class=col-8 id="score-player-col">
+            <div class="row" id="scores-row">
+              <div class="col-md-6" id="header-label-score-1-col">0</div>        
+              <div class="col-md-6" id="header-label-score-2-col">0</div>
+            </div>
+
+            <div class="row" id="players-row">
+              <div class="col-md-6" id="header-label-player-1-col">Player 1</div>        
+              <div class="col-md-6" id="header-label-player-2-col">Player 2</div>
+            </div>             
+           </div>
+          
+          <div class="col-4" id="reset-col">  
+            <div class="col-md-12" id="header-label-reset-col">Reset all</div>
+          </div>
+          
+          
+        </div>
+      </div>
+      
+      <div class="container" id="menu-first-container">
+        <p id="menu-first-title">Choose your challenge<p>
+        <div class="container" id="menu-first-button-container">
+          <button class="btn" id="menu-first-btn-one-player" number="1">One player</button>
+          <button class="btn" id="menu-first-btn-two-player" number="2">Two player</button>
+        </div>
+      </div>
+      
+      <div class="container" id="menu-second-container">
+        <p id="menu-second-title">Choose "X" or "O"<p>
+        <div class="container" id="menu-second-button-container">
+          <button class="btn" id="menu-second-btn-x" symbol="x">x</button>
+          <button class="btn" id="menu-second-btn-o" symbol="o">o</button>
+        </div>
+          <p id="menu-second-back">← Back<p>
+      </div>
+            
+      <div class="container" id="board">
+
+          <div class="row" id="board-row">            
+            <div class="cell" id="board-cell-1" used="false">
+              <p id="cell-0-0">b</p>
+            </div>
+            <div class="cell" id="board-cell-2" used="false">
+              <p id="cell-0-1">b</p>
+            </div>
+            <div class="cell" id="board-cell-3" used="false">
+              <p id="cell-0-2">b</p>
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="cell" id="board-cell-4" used="false">
+              <p id="cell-1-0">b</p>
+            </div>
+            <div class="cell" id="board-cell-5" used="false">
+              <p id="cell-1-1">b</p>
+            </div>
+            <div class="cell" id="board-cell-6" used="false">
+              <p id="cell-1-2">b</p>
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="cell" id="board-cell-7" used="false">
+              <p id="cell-2-0">b</p>
+            </div>
+            <div class="cell" id="board-cell-8" used="false">
+              <p id="cell-2-1">b</p>
+            </div>
+            <div class="cell" id="board-cell-9" used="false">
+              <p id="cell-2-2">b</p>
+            </div>
+          </div>
+
+      </div>
+      
+      <div class="container" id="end-game-container">
+        <p id="end-game-title">Game over!<p>
+      </div>
+ 
+      
+    </div>  
+  </div>
+</div>
+
+<p class="text-center"><a style="color:#c34141" id="link-pers" href="https://it.linkedin.com/in/giuseppefragala" target="_blank">by Giuseppe Fragalà</a></p>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
